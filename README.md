@@ -2,6 +2,8 @@
 
 A simple chatbot built with React that responds to basic user commands such as getting today’s date, flipping a coin, and rolling a dice.
 
+<img width="1324" height="943" alt="image" src="https://github.com/user-attachments/assets/fb753ba1-0c61-4f08-a3d2-e79f315b492a" />
+
 ## Features 
 
 * Get today’s date
@@ -43,7 +45,7 @@ The chatbot checks user messages for specific keywords and responds accordingly:
 
 If the chatbot does not recognize the message, it responds with a fallback reply.
 
-## Getting Started 🚀
+## Getting Started 
 
 ### 1. Clone the Repository
 
