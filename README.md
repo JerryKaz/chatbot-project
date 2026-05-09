@@ -1,12 +1,96 @@
-# React + Vite
+# Hello Chatbot 🤖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple chatbot built with React that responds to basic user commands such as getting today’s date, flipping a coin, and rolling a dice.
 
-Currently, two official plugins are available:
+## Features 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Get today’s date
+* Flip a coin
+* Roll a dice
+* Interactive chat interface
+* Beginner-friendly React project
+* Simple and responsive UI
 
-## Expanding the ESLint configuration
+## Example Conversation 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```txt
+hello chatbot
+
+Hello! How can I help you?
+
+can you get me todays date?
+
+Today is September 27
+
+hi
+
+Sorry, I didn't quite understand that. Currently, I only know how to flip a coin, roll a dice, or get today's date. Let me know how I can help!
+```
+
+## Built With 
+
+* React
+* JavaScript
+* CSS
+
+## How It Works 
+
+The chatbot checks user messages for specific keywords and responds accordingly:
+
+* `"today's date"` → returns the current date
+* `"flip a coin"` → returns Heads or Tails
+* `"roll a dice"` → returns a random number from 1–6
+
+If the chatbot does not recognize the message, it responds with a fallback reply.
+
+## Getting Started 🚀
+
+### 1. Clone the Repository
+
+```bash
+git clone <your-repository-link>
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd chatbot-project
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm start
+```
+
+The app will run locally at:
+
+```txt
+http://localhost:3000
+```
+
+## Project Structure 📁
+
+```txt
+src/
+├── components/
+├── App.js
+├── index.js
+├── styles.css
+```
+
+## Future Improvements 
+
+* Add AI-powered responses
+* Improve chatbot understanding
+* Add dark mode
+* Add voice support
+* Store chat history
+* Deploy online
+
